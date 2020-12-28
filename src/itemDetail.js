@@ -8,7 +8,7 @@ function Item({ match }) {
     useEffect(() => {
         fetchItem();
         console.log(match);
-    }, []);
+    });
     console.log(match);
     const [item, setItem] =useState([]);
 
